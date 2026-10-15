@@ -43,14 +43,14 @@
             $mail->isSMTP();
             $mail->Host = "smtp.gmail.com";
             $mail->SMTPAuth = true;
-            $mail->Username = "SEU_EMAIL@gmail.com";
-            $mail->Password = "SENHA_DE_APLICATIVO";
+            $mail->Username = "lucas.rvogel@unidavi.edu.br";
+            $mail->Password = "YXN8CTLSC4RA";
             $mail->SMTPSecure = "tls";
             $mail->Port = 587;
             $mail->CharSet = "UTF-8";
 
-            $mail->setFrom("SEU_EMAIL@gmail.com");
-            $mail->addAddress("SEU_EMAIL@gmail.com");
+            $mail->setFrom("lucas.rvogel@unidavi.edu.br");
+            $mail->addAddress("lucas.rvogel@unidavi.edu.br");
 
             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 throw new Exception("Email inválido");
