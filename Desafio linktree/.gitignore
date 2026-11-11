@@ -1,0 +1,5 @@
+# Não enviar a conexão local e as credenciais para o GitHub
+/conexao.php
+
+# Arquivos temporários do editor
+/.vscode/
